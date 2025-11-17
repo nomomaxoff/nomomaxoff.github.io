@@ -1,3 +1,48 @@
 p {
     color: black;
 }
+
+#pokeimagen {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#pokeball {
+    border-radius: 50%;
+    transition: 6s;
+}
+
+#pokeball:hover {
+    content: url("Imagenes/🔴Poke\ ball.gif");
+    transform: translate(1000px, 1000px);
+}
+
+#bulbasaur:hover {
+    content: url("Imagenes/bulbasaur.gif");
+}
+
+#charmander:hover {
+    content: url("Imagenes/charmander.gif");
+}
+
+#squirtle {
+    transition: 2.5s;
+}
+
+#squirtle:hover {
+    content:url("Imagenes/squirtle-sax-squirtle.gif");
+    border-radius: 50%;
+    border: 3px solid black;
+    transform: translateX(150px) rotate(360deg);
+}
+
+#combate {
+    transition: 1s;
+}
+
+#combate:hover {
+    content:url("Imagenes/battle.gif");
+    border-radius: 10%;
+    transform: translateX(30px);
+}
