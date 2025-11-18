@@ -8,9 +8,15 @@
 </head>
 <body>
 
-    <header>
+    <header id="cabecera">
         <h1>Guía Pokémon: Primera Generación</h1>
+        <div>
+            <img src="Imagenes/Poke ball logo.png" style="width: 45px;">
+        </div>
+    </header>
 
+    <main>
+        
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
@@ -23,9 +29,17 @@
                 <li><a href="#glosario">Glosario</a></li>
             </ul>
         </nav>
-    </header>
 
-    <main>
+        <div class="sidebar">
+            <a href="#inicio">Inicio</a>
+            <a href="#que-es-pokemon">¿Qué es Pokémon?</a>
+            <a href="#juegos">Juegos de 1º Gen</a>
+            <a href="#iniciales">Pokémon iniciales</a>
+            <a href="#tipos">Tipos y ventajas</a>
+            <a href="#basico">Conceptos básicos</a>
+            <a href="#consejos">Consejos</a>
+            <a href="#glosario">Glosario</a>
+        </div>
 
         
         <section id="inicio">
@@ -151,13 +165,13 @@
 
             <article>
                 <h3>Captura de Pokémon</h3>
-                <img src="https://img.pokemondb.net/sprites/items/poke-ball.png" width="60">
+                <img src="https://img.pokemondb.net/sprites/items/poke-ball.png" width="60" id="pokeball2">
                 <p>Debilita al Pokémon salvaje y lanza una Poké Ball para capturarlo.</p>
             </article>
 
             <article>
                 <h3>Niveles y evolución</h3>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzVtVKDJjHpcTlQ44jOefa8W_w0Mn56sRVdw&s" width="60">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzVtVKDJjHpcTlQ44jOefa8W_w0Mn56sRVdw&s" width="60" id="pokeevolution">
                 <p>Al subir de nivel, los Pokémon mejoran. Muchos evolucionan.</p>
             </article>
 
@@ -190,20 +204,22 @@
                     <li><strong>Stats:</strong> Atributos como Ataque, Defensa y Velocidad.</li>
                 </ul>
         </section>
-
+        <br><br>
     </main>
 
     <footer>
-    <center>
         <p><a href="#inicio">Volver al inicio</a></p>
 
         <p>© 2025 - Proyecto fan de Pokémon (Primera Generación)</p>
 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg"
+        <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg"
              width="130"
-             alt="Logo Pokémon">
-    </center>
-    
+             alt="Logo Pokémon" class="imagen_pie">
+            <img src="Imagenes/easteregg1.png" class="imagen_pie" id="easter_egg">
+            
+        </div>
+        
     </footer>
 
 
